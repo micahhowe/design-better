@@ -1,6 +1,8 @@
 
 body{
-    background:rgb(223, 207, 233)
+    background:rgb(223, 207, 233);
+    font-family: 'Roboto', sans-serif;
+    height:200vh;
 }
 .announce{
     display:flex;
@@ -10,34 +12,52 @@ body{
     background-image:url(https://s3.amazonaws.com/www-inside-design/static/img/butterbar-dbpodcast.png);
     margin:-7px -7px 0 -7px;
     align-items:center;
+    font-weight: bold;
 }
 .announce i {
     color:ivory;
-margin:0 30px 0 600px;
+    margin:0 30px 0 600px;
+}
+.announce a{
+    font-size:0.8em;
 }
 header{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
     background: white;
-    margin-left:50px;
+    margin-left:15px;
     align-items:center;
     padding: 0 25px 0 25px;
     height:100px;
+    font-weight: bold;
+}
+.logo{
+    width:100px;
+    border-radius: 50%;
+
 }
 .logo img{
     height:70px;
+    position:fixed;
+    /* background:white;
+    border-radius: 50%; */
 }
 .logo-title{
-    display: inline-block;
+    display: flex;
+    margin-left:130px;
 }
 .nav{
     display:flex;
     list-style:none;
 }
-li{
-    padding-left:20px;
-
+li a{
+    padding-left:2vw;
+    color:black;
+    text-decoration: none;
+}
+li a:hover{
+    color:grey;
 }
 button{
     background:blue;
@@ -53,10 +73,27 @@ button{
     align-items:center;
     
 }
+.white-bg{
+    background:white;
+    margin-left:15px;
+    height:80vh;
+}
 .hero{
     display:flex;
-    margin-left:200px;
+    margin-left:100px;
+    padding-left:100px;
     height:50vh;
     flex-direction:column;
     justify-content: space-evenly;
+    background:rgb(223, 207, 233);
+}
+.social i{
+    display:flex;
+    justify-content: column;
+    position:fixed;
+    right:0;
+    bottom:0;
+    border: 1px solid black;
+    padding:8px;
+    border-radius:50%;
 }
