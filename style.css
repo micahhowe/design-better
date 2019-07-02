@@ -1,6 +1,6 @@
 
 body{
-    background:rgb(223, 207, 233);
+    background:#E1E7FA;
     font-family: 'Roboto', sans-serif;
     height:200vh;
 }
@@ -26,11 +26,12 @@ header{
     flex-direction:row;
     justify-content: space-between;
     background: white;
-    margin-left:15px;
+    margin:0 15px 0 15px;;
     align-items:center;
     padding: 0 25px 0 25px;
     height:100px;
     font-weight: bold;
+    
 }
 .logo{
     width:100px;
@@ -38,10 +39,11 @@ header{
 
 }
 .logo img{
-    height:70px;
+    height:60px;
     position:fixed;
     /* background:white;
     border-radius: 50%; */
+    margin-bottom:50px;
 }
 .logo-title{
     display: flex;
@@ -67,6 +69,7 @@ button{
 }
 .hero button{
     width:200px;
+    padding:20px 0 20px 0;
 }
 .other-menu{
     display:flex;
@@ -75,17 +78,23 @@ button{
 }
 .white-bg{
     background:white;
-    margin-left:15px;
-    height:80vh;
+    margin:0 15px 0 15px;
+    height:79vh;
 }
 .hero{
     display:flex;
     margin-left:100px;
-    padding-left:100px;
-    height:50vh;
+    padding-left:150px;
+    height:60vh;
     flex-direction:column;
-    justify-content: space-evenly;
-    background:rgb(223, 207, 233);
+    justify-content: center;
+    background:#E1E7FA;
+}
+h1{
+    font-size:50px;
+}
+h3{
+    font-weight: lighter;
 }
 .social i{
     display:flex;
@@ -96,4 +105,6 @@ button{
     border: 1px solid black;
     padding:8px;
     border-radius:50%;
+    m
+    
 }
