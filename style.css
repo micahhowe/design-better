@@ -85,13 +85,13 @@ button{
     display:flex;
     margin-left:100px;
     padding-left:150px;
-    height:60vh;
+    height:65vh;
     flex-direction:column;
     justify-content: center;
     background:#E1E7FA;
 }
 h1{
-    font-size:50px;
+    font-size:70px;
 }
 h3{
     font-weight: lighter;
@@ -107,4 +107,9 @@ h3{
     border-radius:50%;
     m
     
+}
+.ast-photo{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:-700px;
 }
